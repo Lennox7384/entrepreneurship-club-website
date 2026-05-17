@@ -47,23 +47,19 @@ entrepreneurship-club-website/
 
 ## Setup
 
-This is a server-rendered PHP/MySQL application. A live demo cannot be hosted on GitHub Pages (which only serves static files). To run locally with XAMPP, MAMP, or any LAMP stack:
+To run locally with XAMPP, MAMP, or any LAMP stack:
 
 1. Clone this repo into your local web root (e.g., `htdocs/`).
-2. Create a MySQL database and import your schema (the project expects an `events` table with columns `event_title`, `event_date`, `event_time`, `event_type`, `event_desc`, `event_detailed_desc`, `event_img`, plus a `members` table).
-3. Copy `.env.example` to `.env` and fill in your DB credentials, OR export the same variables in your shell before starting Apache:
+2. Create a MySQL database and import your schema. The project expects an `events` table with columns `event_title`, `event_date`, `event_time`, `event_type`, `event_desc`, `event_detailed_desc`, `event_img`, plus a `members` table.
+3. Copy `.env.example` to `.env` and fill in the DB credentials, or export the same variables in the shell before starting Apache:
    ```bash
    export DB_HOST=localhost
    export DB_USER=root
    export DB_PASSWORD=your-password
    export DB_NAME=ClubDatabase
    ```
-4. Start Apache + MySQL via your stack of choice.
-5. Visit `http://localhost/entrepreneurship-club-website/` in a browser.
-
-## Screenshots
-
-Drop screenshots into `docs/screenshots/` and link them here. Suggested captures: home page with live events, members directory, admin event editor, interactive schedule.
+4. Start Apache + MySQL.
+5. Open `http://localhost/entrepreneurship-club-website/` in a browser.
 
 ## Team
 
