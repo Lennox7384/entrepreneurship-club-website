@@ -1,0 +1,23 @@
+# Environment & secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# PHP
+vendor/
+composer.lock
+
+# Local DB dumps
+*.sql
+*.sql.gz
