@@ -42,7 +42,7 @@ entrepreneurship-club-website/
   db_config.php         # environment-driven DB config (no secrets in source)
   css/ js/ img/ scheduleIcons/ scheduleMEDIA/   # assets
   footer.php / header.php / enable-js.php       # shared partials
-  docs/screenshots/     # placeholder for site screenshots
+  docs/screenshots/     # site screenshots referenced from this README
 ```
 
 ## Setup
@@ -60,6 +60,24 @@ To run locally with XAMPP, MAMP, or any LAMP stack:
    ```
 4. Start Apache + MySQL.
 5. Open `http://localhost/entrepreneurship-club-website/` in a browser.
+
+## Screenshots
+
+**Home page — upcoming events pulled live from MariaDB**
+
+![Home page with upcoming events](docs/screenshots/01-home-page.png)
+
+**Interactive weekly schedule with event detail panel**
+
+![Schedule page with event detail](docs/screenshots/02-schedule-page.png)
+
+**Admin event editor — grid of all events plus edit form**
+
+![Admin event editor](docs/screenshots/03-admin-event-editor.png)
+
+**About page — mission hero and members section**
+
+![About page](docs/screenshots/04-about-page.png)
 
 ## Team
 
